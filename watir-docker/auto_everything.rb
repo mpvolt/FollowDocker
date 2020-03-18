@@ -55,12 +55,12 @@ puts rand
 start = Time.now
 
  # put your own credentials here
-account_sid = 'AC02a1bb5dd1e442b9877ba9b51a9fb3a9'
-auth_token = 'c50059b221797f0d8e8f43ea1b0ca588'
+account_sid = 
+auth_token = 
 # set up a client to talk to the Twilio REST API
 tclient = Twilio::REST::Client.new(account_sid, auth_token)
-from = '+14156920287'
-to = '+14437458242'
+from = 
+to = 
 
 
 
